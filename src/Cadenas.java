@@ -12,8 +12,8 @@ public class Cadenas {
         //Cadena multi linea (text Block)
         var cadena4 = """
                 Este
-                es 
-                un 
+                es
+                un
                 texto
                 multilinea
                 """;
