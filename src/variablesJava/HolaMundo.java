@@ -1,3 +1,5 @@
+package variablesJava;
+
 public class HolaMundo {
     // Agregamos el metodo principal (main)
     public static void main(String[] args) {

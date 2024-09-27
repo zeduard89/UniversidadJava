@@ -1,3 +1,5 @@
+package variablesJava;
+
 public class DetalleProducto {
     public static void main(String[] args) {
         String nombreDelProducto = "Jamon";
