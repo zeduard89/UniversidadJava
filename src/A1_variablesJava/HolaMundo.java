@@ -1,4 +1,4 @@
-package variablesJava;
+package A1_variablesJava;
 
 public class HolaMundo {
     // Agregamos el metodo principal (main)

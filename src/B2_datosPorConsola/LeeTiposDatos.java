@@ -1,6 +1,5 @@
-package datosPorConsola;
+package B2_datosPorConsola;
 import java.util.Scanner;
-import java.util.zip.DeflaterOutputStream;
 
 public class LeeTiposDatos {
     public static void main(String[] args) {

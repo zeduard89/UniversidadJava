@@ -1,4 +1,4 @@
-package variablesJava;
+package A1_variablesJava;
 
 public class Variables {
     public static void main(String[] args) {
