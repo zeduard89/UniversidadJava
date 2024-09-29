@@ -1,4 +1,4 @@
-package B2_datosPorConsola;
+package A2_datosPorConsola;
 import java.util.Scanner;
 
 public class ManejoConsola {
