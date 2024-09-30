@@ -15,6 +15,15 @@ class Perro extends Animal{
     public void hacerSonido(){
         System.out.println("Puedo ladrar");
     }
+
+    //Modificar comportamiento heredado de la clase padre
+    @Override // Recomendacion Anotacion
+    protected void dormir(){
+        System.out.println("Duermo 15 horas al dia");
+
+        System.out.println("Metodo clase padre: ");
+        super.dormir();
+    }
 }
 
 class PruebaAnimal{
