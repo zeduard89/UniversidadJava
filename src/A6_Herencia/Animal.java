@@ -29,18 +29,9 @@ class Perro extends Animal{
         System.out.println("Metodo clase padre: ");
         super.dormir();
     }
-
-    //Modificar comportamiento heredado de la clase padre
-    @Override // Recomendacion Anotacion
-    protected void dormir(){
-        System.out.println("Duermo 15 horas al dia");
-
-        System.out.println("Metodo clase padre: ");
-        super.dormir();
-    }
 }
 
-/*
+
 class Gato extends Animal{
 
     @Override
@@ -48,7 +39,7 @@ class Gato extends Animal{
         System.out.println("El gato hace Miau");
     }
 }
-*/
+
 
 class PruebaAnimal{
 
@@ -74,5 +65,8 @@ class PruebaAnimal{
         perro1.dormir();
         perro1.hacerSonido();
         imprimirSonido(perro1);
+
+        var gato1 = new Gato();
+        imprimirSonido(gato1);
     }
 }
