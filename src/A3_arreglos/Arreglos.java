@@ -1,4 +1,4 @@
-package A3_Arreglos;
+package A3_arreglos;
 
 public class Arreglos {
     public static void main(String[] args) {

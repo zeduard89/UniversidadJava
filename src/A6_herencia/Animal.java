@@ -1,4 +1,4 @@
-package A6_Herencia;
+package A6_herencia;
 
 // CLASE PADRE
 public class Animal {
