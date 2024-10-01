@@ -12,9 +12,10 @@ import java.util.List;
 
 public class ServicioSnacksArchivos implements IServicioSnacks{
 
+    // Ubicacion archivo y creo lista snacks
     private final String NOMBRE_ARCHIVO = "./src/B5_maquinaSnack_archivos/snacks.txt";
-    //Creamos la lista de snacks
     private List<Snack> snacks = new ArrayList<>();
+
     //Constructor de clase
     public ServicioSnacksArchivos(){
         var archivo = new File(NOMBRE_ARCHIVO);
@@ -98,4 +99,5 @@ public class ServicioSnacksArchivos implements IServicioSnacks{
     public List<Snack> getSnacks() {
         return this.snacks;
     }
+
 }
