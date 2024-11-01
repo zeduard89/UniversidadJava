@@ -1,3 +1,6 @@
+# Ignore node_modules en todos los subdirectorios
+**/node_modules/
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
