@@ -1,0 +1,5 @@
+1,Papas,70.0
+2,Refresco,50.0
+3,Sandwitch,120.0
+4,chocolate,20.3
+5,popo,10.5
