@@ -17,7 +17,7 @@ public class ClienteEntidadPersona {
         //Inicia la transaccion
         tx.begin();
         
-        //No se debe especificar el ID de la DB
+        //No se debe especificar el ID de la DB // EMAIL UNICO
         Persona persona1 = new Persona("Maria", "Gutierrez","mGutierrez2@hotmail.com", "123456");
         log.debug("Objeto a persisitir: " + persona1);
         //Persistir objeto

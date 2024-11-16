@@ -1,0 +1,4 @@
+test\ClienteEntidadPersona.class
+ar\com\sg\pruebajpa2\JakartaRestConfiguration.class
+ar\com\sg\pruebajpa2\domain\Persona.class
+ar\com\sg\pruebajpa2\resources\JakartaEE11Resource.class
