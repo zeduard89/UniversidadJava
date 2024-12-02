@@ -19,7 +19,7 @@ public class Persona implements Serializable{
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long idPersona;
     
-    @NotEmpty
+    @NotEmpty // Validacion con "spring-boot-starter-validation"
     private String nombre;
     
     @NotEmpty
